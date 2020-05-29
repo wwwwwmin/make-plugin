@@ -8,7 +8,7 @@ class CopyrightWebpackPlugin {
     apply(compiler) {
         //选择compile同步时刻
         compiler.hooks.compile.tap('CopyrightWebpackPlugin', (compilation) => {
-            console.log('conpile');
+            console.log('compile');
         }),
 
             //选择emit异步时刻
